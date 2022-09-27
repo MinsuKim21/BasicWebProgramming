@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    height: 115vh;
+    width: 100%;
+    background-color: hsla(0, 100%, 50%, 1);
+    background-image:
+        radial-gradient(at 40% 20%, hsla(0, 99%, 49%, 1) 0px, transparent 50%),
+        radial-gradient(at 61% 6%, hsla(26, 100%, 50%, 1) 0px, transparent 50%),
+        radial-gradient(at 91% 3%, hsla(53, 100%, 52%, 1) 0px, transparent 50%),
+        radial-gradient(at 72% 38%, hsla(116, 100%, 50%, 1) 0px, transparent 50%),
+        radial-gradient(at 7% 80%, hsla(222, 97%, 54%, 1) 0px, transparent 50%),
+        radial-gradient(at 56% 84%, hsla(240, 100%, 50%, 1) 0px, transparent 50%),
+        radial-gradient(at 90% 90%, hsla(289, 100%, 50%, 1) 0px, transparent 50%);
+}
+
+header {
+    height: 10%;
+    padding-top: 5%;
+    padding-left: 5vw;
+}
+
+#headerContainer {
+    display: flex;
+}
+
+#headerTitle {
+    width: 60%;
+}
+
+nav {
+    margin: auto;
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    height: 70%;
+    padding-left: 5vw;
+}
+
+#introductionContainer {
+    padding-left: 5vw;
+    height: 10%;
+}
+
+section {
+    width: 65%;
+    display: block;
+}
+
+aside {
+    display: block;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: rgba(0, 0, 0, 0.96);
+    color: white;
+    justify-content: space-between;
+}
+
+hr {
+    margin: 0;
+}
+
+#icon {
+    margin-right: 20px;
+}
+
+img {
+    filter: opacity(0.5) drop-shadow(0 0 0 #ffffff);
+}
+
+#contect {
+    padding-left: 2vw;
+}
+
+a {
+    text-decoration: none;
+}
