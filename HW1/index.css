@@ -21,6 +21,7 @@ header {
 
 #headerContainer {
     display: flex;
+    justify-content: flex-end;
 }
 
 #headerTitle {
